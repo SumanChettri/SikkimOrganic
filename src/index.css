@@ -1,0 +1,25 @@
+@import "tailwindcss";
+/* Global Theme */
+:root {
+  --theme-background: linear-gradient(to bottom, #1b2c54, #142f22, #102221);
+  --theme-text: #f1f5f9;
+}
+
+/* Apply theme */
+body {
+  background: var(--theme-background);
+  color: var(--theme-text);
+  transition: all 0.3s ease-in-out;
+  overflow-x: hidden;
+  font-family: "Inter", sans-serif;
+}
+
+/* Navbar Hover Effect */
+.navbar-hover:hover {
+  color: #ff5700;
+  transition: color 0.2s ease-in-out;
+}
+
+/* Buttons */
+
+
